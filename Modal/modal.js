@@ -19,7 +19,8 @@ window.onload = function () {
             '<p style="text-align: center; color:#bdc0ba;font-size:14px">视频推荐电脑端使用</p>' +
             "</div>";
         document.body.append(div);
-    } else {
+    } 
+     if (window.navigator.userAgent.match(/Windows/windows/macos/i) || url.match(/pan.ylmty.cc/i)) {
         var div = document.createElement("div");
         div.setAttribute("id", "shit");
         div.innerHTML =
