@@ -5,7 +5,7 @@
  */
 window.onload = function () {
     const url = window.location.href;
-    if (window.outerWidth<500) || url.match(/pan.ylmty.cc/i)) {
+    if (window.outerWidth<400) {
         var div = document.createElement("div");
         div.setAttribute("id", "fuck");
         div.style.cssText =
@@ -19,9 +19,9 @@ window.onload = function () {
             '<p style="text-align: center; color:#bdc0ba;font-size:14px">视频推荐电脑端使用</p>' +
             "</div>";
         document.body.append(div);
-    } 
-     if (window.navigator.userAgent.match(/Windows|windows|macos/i) || url.match(/pan.ylmty.cc/i)) {
+    } else {
         var div = document.createElement("div");
+        div.setAttribute("id", "shit");
         div.innerHTML =
             ' <div class="container" id="colse">' +
             '<div class="popup-inner">' +
@@ -44,6 +44,7 @@ window.onload = function () {
             '文本文本文本文本' +
             '</p>' +
             '</div>' +
+            '<p id="text">测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本</p>'+
             '<a id="btn"></a>' +
             '</div>' +
             '</div>';
