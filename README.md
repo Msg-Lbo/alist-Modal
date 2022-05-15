@@ -8,8 +8,5 @@
 ### 建议将图片裁剪成300*600：300宽 600高
 ### 直链用不了，需要托管，github或者其他的都行。
 
-#### 移动端
-<img src="https://msg-lbo.github.io/alist-beautify/Modal/phoneModal.png" style="zoom: 67%;" />
-
-#### PC端
-<img src="https://msg-lbo.github.io/alist-beautify/Modal/windowsModal.png" style="zoom: 25%;" />
+## 笔记：
+#### 1.修改了判断双端的逻辑
