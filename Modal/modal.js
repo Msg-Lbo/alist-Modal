@@ -25,7 +25,7 @@ window.onload = function () {
         console.log(UA[0])
     }
 
-    if (judgeUA == 0 && url == "https://pan.ylmty.cc") {
+    if (judgeUA == 0 && url == "https://pan.ylmty.cc/") {
         // url填自己的网站域名加http(s)
         var div = document.createElement("div");
         div.setAttribute("id", "fuck");
@@ -41,7 +41,7 @@ window.onload = function () {
             "</div>";
         document.body.append(div);
     }
-    if (judgeUA == 1 && url == "https://pan.ylmty.cc") {
+    if (judgeUA == 1 && url == "https://pan.ylmty.cc/") {
         // url填自己的网站域名加http(s)
         var div = document.createElement("div");
 
