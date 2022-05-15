@@ -5,7 +5,7 @@
  */
 window.onload = function () {
     const url = window.location.href;
-    if (window.navigator.userAgent.match(/mobile|android|iphone|ipad|phone/i) || url.match(/pan.ylmty.cc/i)) {
+    if (window.outerWidth<500) || url.match(/pan.ylmty.cc/i)) {
         var div = document.createElement("div");
         div.setAttribute("id", "fuck");
         div.style.cssText =
@@ -22,7 +22,6 @@ window.onload = function () {
     } 
      if (window.navigator.userAgent.match(/Windows|windows|macos/i) || url.match(/pan.ylmty.cc/i)) {
         var div = document.createElement("div");
-        div.setAttribute("id", "shit");
         div.innerHTML =
             ' <div class="container" id="colse">' +
             '<div class="popup-inner">' +
