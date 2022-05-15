@@ -5,7 +5,7 @@
  */
 window.onload = function () {
     const url = window.location.href;
-    var UA = navigator.userAgent.match(/Windows|X11|Macintosh|iPhone|iPad|Linux|Android/i);
+    var UA = navigator.userAgent.match(/Windows|Windows NT 10.0|X11|Macintosh|iPhone|iPad|Linux|Android/i);
     var judgeUA = null;
 
     if (UA[0] == "Windows" || UA[0] == "X11" || UA[0] == "Macintosh") {
@@ -16,11 +16,13 @@ window.onload = function () {
         judgeUA = 0
     }
 
-    // if (judgeUA == 1) {
-    //     console.log("PC端")
-    // } else if (judgeUA == 0) {
-    //     console.log("移动端")
-    // }
+    if (judgeUA == 1) {
+        console.log("PC端")
+        console.log(UA[0])
+    } else if (judgeUA == 0) {
+        console.log("移动端")
+        console.log(UA[0])
+    }
 
     if (judgeUA == 0 && url == "https://pan.ylmty.cc") {
         // url填自己的网站域名加http(s)
