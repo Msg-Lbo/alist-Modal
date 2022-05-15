@@ -56,7 +56,7 @@ body {
     align-items: flex-end;
     width: 75%;
     height: 100%;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 .popup__photo img {
@@ -96,11 +96,11 @@ body {
     left: -10%;
     width: 200px;
     height: 50px;
-    border-radius: 10px;
     background-color: #0A0A0A30;
     text-align: center;
     line-height: 50px;
     text-decoration: none;
+    border-radius: 10px;
 }
 
 .popup-inner a::after {
@@ -114,7 +114,7 @@ body {
     transition: all 0.3s;
 }
 
-.popup-inner #text{
+.popup-inner #text {
     position: relative;
     display: block;
     top: 35%;
