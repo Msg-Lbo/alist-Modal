@@ -8,7 +8,7 @@
 ### 建议将图片裁剪成300*600：300宽 600高
 ### 直链用不了，需要托管，github或者其他的都行。
 
-#### PC端
-![](https://pan.ylmty.cc/d/alidrive%F0%9F%94%91/upload%F0%9F%93%A4/windowsModal.png)
 #### 移动端
-![](https://pan.ylmty.cc/d/alidrive%F0%9F%94%91/upload%F0%9F%93%A4/phoneModal.png)
+<img src="https://pan.ylmty.cc/d/alidrive%F0%9F%94%91/upload%F0%9F%93%A4/phoneModal.png" style="zoom: 67%;" />
+#### PC端
+<img src="https://pan.ylmty.cc/d/alidrive%F0%9F%94%91/upload%F0%9F%93%A4/windowsModal.png" style="zoom: 25%;" />
