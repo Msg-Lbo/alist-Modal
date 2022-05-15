@@ -5,7 +5,25 @@
  */
 window.onload = function () {
     const url = window.location.href;
-    if (window.outerWidth<400) {
+    var UA = navigator.userAgent.match(/Windows|X11|Macintosh|iPhone|iPad|Linux|Android/i);
+    var judgeUA = null;
+
+    if (UA[0] == "Windows" || UA[0] == "X11" || UA[0] == "Macintosh") {
+        // PC端
+        judgeUA = 1
+    } else if (UA[0] == "iPhone" || UA[0] == "iPad" || UA[0] == "Linux" || UA[0] == "Android") {
+        // 移动端
+        judgeUA = 0
+    }
+
+    // if (judgeUA == 1) {
+    //     console.log("PC端")
+    // } else if (judgeUA == 0) {
+    //     console.log("移动端")
+    // }
+
+    if (judgeUA == 0 && url == "https://pan.ylmty.cc") {
+        // url填自己的网站域名加http(s)
         var div = document.createElement("div");
         div.setAttribute("id", "fuck");
         div.style.cssText =
@@ -19,14 +37,17 @@ window.onload = function () {
             '<p style="text-align: center; color:#bdc0ba;font-size:14px">视频推荐电脑端使用</p>' +
             "</div>";
         document.body.append(div);
-    } else {
+    }
+    if (judgeUA == 1 && url == "https://pan.ylmty.cc") {
+        // url填自己的网站域名加http(s)
         var div = document.createElement("div");
+
         div.setAttribute("id", "shit");
         div.innerHTML =
             ' <div class="container" id="colse">' +
             '<div class="popup-inner">' +
-            '<div class="popup__photo" style="overflow: hidden;">' +
-            '<img src="https://pan.ylmty.cc/d/local%F0%9F%94%92/img/300x600.jpg" alt="图片丢失了">' +
+            '<div class="popup__photo">' +
+            '<img src="./12.jpg" alt="图片丢失了">' +
             // 这里src放左侧的图片直链，h1和p标签内的文字内容可以修改
             // 注意文本的断句
             '</div>' +
@@ -44,7 +65,7 @@ window.onload = function () {
             '文本文本文本文本' +
             '</p>' +
             '</div>' +
-            '<p id="text">测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本</p>'+
+            '<p id="text">测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本</p>' +
             '<a id="btn"></a>' +
             '</div>' +
             '</div>';
