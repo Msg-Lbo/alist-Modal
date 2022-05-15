@@ -3,10 +3,12 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
+    /*     这里的url可以放背景，仅用于空页面测试 */
     /* background: url(./12.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%; */
+    /*     这里的url可以放背景，仅用于空页面测试 */
 }
 
 .container {
