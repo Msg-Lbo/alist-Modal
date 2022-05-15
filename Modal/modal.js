@@ -20,7 +20,7 @@ window.onload = function () {
             "</div>";
         document.body.append(div);
     } 
-     if (window.navigator.userAgent.match(/Windows/windows/macos/i) || url.match(/pan.ylmty.cc/i)) {
+     if (window.navigator.userAgent.match(/Windows|windows|macos/i) || url.match(/pan.ylmty.cc/i)) {
         var div = document.createElement("div");
         div.setAttribute("id", "shit");
         div.innerHTML =
