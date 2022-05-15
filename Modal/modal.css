@@ -17,7 +17,7 @@ body {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 2;
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     justify-content: center;
