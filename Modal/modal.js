@@ -5,6 +5,7 @@
  */
 window.onload = function () {
     const url = window.location.href;
+    console.log(url)
     var UA = navigator.userAgent.match(/Windows|Windows NT 10.0|X11|Macintosh|iPhone|iPad|Linux|Android/i);
     var judgeUA = null;
 
