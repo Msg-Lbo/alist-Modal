@@ -1,8 +1,8 @@
 # alist-Modal
 ## 这两个文件都放在head的最上面或者最下面
-[css文件](https://msg-lbo.github.io/alist-beautify/Modal/modal.css)
+[css文件](https://msg-lbo.github.io/alist-Modal/Modal/modal.css)
 
-[js文件](https://msg-lbo.github.io/alist-beautify/Modal/modal.js)
+[js文件](https://msg-lbo.github.io/alist-Modal/Modal/modal.js)
 
 [预览](https://pan.ylmty.cc)
 ### 电脑端的图片因为和alist有冲突，会导致溢出的部分不隐藏，而是直接挤在一起
