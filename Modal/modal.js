@@ -5,8 +5,10 @@
  */
 window.onload = function () {
     const url = window.location.href;
-    console.log(url)
+    console.log("你的url:" + url)
     var UA = navigator.userAgent.match(/Windows|Windows NT 10.0|X11|Macintosh|iPhone|iPad|Linux|Android/i);
+    var w = document.documentElement.offsetWidth || document.body.offsetWidth;
+
     var judgeUA = null;
 
     if (UA[0] == "Windows" || UA[0] == "X11" || UA[0] == "Macintosh") {
@@ -17,16 +19,9 @@ window.onload = function () {
         judgeUA = 0
     }
 
-    if (judgeUA == 1) {
-        console.log("PC端")
-        console.log(UA[0])
-    } else if (judgeUA == 0) {
-        console.log("移动端")
-        console.log(UA[0])
-    }
-
-    if (judgeUA == 0 && url == "https://pan.ylmty.cc/") {
-        // url填自己的网站域名加http(s)
+    if (judgeUA == 0 || url == "https://pan.ylmty.cc/" && w <= 450) {
+        // url填自己的网站域名加http(s),请复制控制台输出的那一串填入这里，注意结束的/有就一起复制，没有就不加
+        // console.log("移动端："+w)
         var div = document.createElement("div");
         div.setAttribute("id", "fuck");
         div.style.cssText =
@@ -41,8 +36,9 @@ window.onload = function () {
             "</div>";
         document.body.append(div);
     }
-    if (judgeUA == 1 && url == "https://pan.ylmty.cc/") {
+    if (judgeUA == 1 && url == "https://pan.ylmty.cc/" && w >= 450) {
         // url填自己的网站域名加http(s)
+        // console.log("PC端："+w)
         var div = document.createElement("div");
 
         div.setAttribute("id", "shit");
