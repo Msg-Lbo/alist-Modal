@@ -50,7 +50,7 @@ window.onload = function () {
             ' <div class="container" id="colse">' +
             '<div class="popup-inner">' +
             '<div class="popup__photo">' +
-            '<img src="./12.jpg" alt="图片丢失了">' +
+            '<img src="https://pan.ylmty.cc/d/local%F0%9F%94%92/img/300x600.jpg" alt="图片丢失了">' +
             // 这里src放左侧的图片直链，h1和p标签内的文字内容可以修改
             // 注意文本的断句
             '</div>' +
