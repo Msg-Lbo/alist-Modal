@@ -9,11 +9,12 @@
 
 [js文件](https://msg-lbo.github.io/alist-Modal/Modal/modal.js)
 
-[预览](https://pan.ylmty.cc)
+### 如果你想知道具体样式，你可以[预览](https://pan.ylmty.cc)这里
+### 托管在github，所以拉取可能有些慢
 ### 电脑端的图片因为和alist有冲突，会导致溢出的部分不隐藏，而是直接挤在一起
 ### 建议将图片裁剪成300*600：300宽 600高
 ### 直链用不了，需要托管，github或者其他的都行。
-### 托管在github，所以拉取可能有些慢
+
 
 ## 笔记：
 #### 1.修改了双端的判断逻辑
