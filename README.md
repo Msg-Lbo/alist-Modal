@@ -1,5 +1,9 @@
 # alist-Modal
 ## 这两个文件都放在head的最上面或者最下面
+`<script src="https://msg-lbo.github.io/alist-beautify/Modal/modal.js"></script>`
+`<link rel="stylesheet" href="https://msg-lbo.github.io/alist-beautify/Modal/modal.css">`
+
+### 如果你需要修改，请下载以下两个文件
 [css文件](https://msg-lbo.github.io/alist-Modal/Modal/modal.css)
 
 [js文件](https://msg-lbo.github.io/alist-Modal/Modal/modal.js)
