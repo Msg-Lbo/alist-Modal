@@ -1,4 +1,6 @@
 # alist-Modal
+## 模态框使用了Vue，所以需要将这个script以及下方两个标签放在一起
+`<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>`
 ## 这两个文件都放在head的最上面或者最下面
 #### github托管：
 `<script src="https://msg-lbo.github.io/alist-beautify/Modal/modal.js"></script>`
@@ -21,7 +23,9 @@
 <hr>
 
 ## 笔记：
-#### 1.修改了双端的判断逻辑
-#### 2.修复绝对定位时缩小窗口会导致下滑页面底部镂空的bug
-#### 3.强化了双端的判断逻辑
+#### 5.使用Vue来显示和控制模态框(大改变)
 #### 4.修复了电脑端下模态框会将页面撑开导致底部出现滑动条的bug
+#### 3.强化了双端的判断逻辑
+#### 2.修复绝对定位时缩小窗口会导致下滑页面底部镂空的bug
+#### 1.修改了双端的判断逻辑
+
