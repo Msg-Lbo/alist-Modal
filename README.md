@@ -2,6 +2,8 @@
 
 ## 这三个文件都放在head的最上面或者最下面,模态框使用了Vue，所以也需要加上
 `<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>`
+##### 为了防止jsd炸掉之后无法正常使用，这里提供了备用的Vue
+`<script src="https://msglbo.gitee.io/alist-modal/Modal/vue.min.js"></script>`
 #### github托管：
 `<script src="https://msg-lbo.github.io/alist-Modal/Modal/modal.js"></script>`
 
