@@ -3,9 +3,9 @@
 ## 这三个文件都放在head的最上面或者最下面,模态框使用了Vue，所以也需要加上
 `<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>`
 #### github托管：
-`<script src="https://msg-lbo.github.io/alist-beautify/Modal/modal.js"></script>`
+`<script src="https://msg-lbo.github.io/alist-Modal/Modal/modal.js"></script>`
 
-`<link rel="stylesheet" href="https://msg-lbo.github.io/alist-beautify/Modal/modal.css">`
+`<link rel="stylesheet" href="https://msg-lbo.github.io/alist-Modal/Modal/modal.css">`
 #### gitee托管(国内推荐)：
 `<script src="https://msglbo.gitee.io/alist-modal/Modal/modal.js"></script>`
 
