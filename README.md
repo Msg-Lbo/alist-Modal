@@ -1,6 +1,6 @@
 # alist-Modal
 
-## 这两个文件都放在head的最上面或者最下面,模态框使用了Vue，所以也需要加上
+## 这三个文件都放在head的最上面或者最下面,模态框使用了Vue，所以也需要加上
 `<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>`
 #### github托管：
 `<script src="https://msg-lbo.github.io/alist-beautify/Modal/modal.js"></script>`
