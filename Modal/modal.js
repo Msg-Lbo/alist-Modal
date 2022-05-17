@@ -3,6 +3,7 @@
  * QQ:24130801
  * Date:2022/05/15
  */
+
 window.onload = function () {
     const url = window.location.href;
     console.log("你的url:" + url)
@@ -18,8 +19,8 @@ window.onload = function () {
         // 移动端
         judgeUA = 0
     }
-
-    if (judgeUA == 0 || url == "https://pan.ylmty.cc/" && w <= 450) {
+    // if (judgeUA == 0 && w <= 450) {
+    if (judgeUA == 0 && url == "https://pan.ylmty.cc/" && w <= 450) {
         // url填自己的网站域名加http(s),请复制控制台输出的那一串填入这里，注意结束的/有就一起复制，没有就不加
         // console.log("移动端："+w)
         var div = document.createElement("div");
@@ -36,44 +37,43 @@ window.onload = function () {
             "</div>";
         document.body.append(div);
     }
+    // if (judgeUA == 1 && w >= 450) {
     if (judgeUA == 1 && url == "https://pan.ylmty.cc/" && w >= 450) {
         // url填自己的网站域名加http(s)
         // console.log("PC端："+w)
         var div = document.createElement("div");
-
         div.setAttribute("id", "shit");
-        div.innerHTML =
-            ' <div class="container" id="colse">' +
+        body.innerHTML =
+            '<div ref="app" class="container" v-show="isShow" id="app">' +
             '<div class="popup-inner">' +
             '<div class="popup__photo">' +
-            '<img src="https://pan.ylmty.cc/d/local%F0%9F%94%92/img/300x600.jpg" alt="图片丢失了">' +
-            // 这里src放左侧的图片直链，h1和p标签内的文字内容可以修改
-            // 注意文本的断句
+            '<img :src="imgUrl" alt="图片丢失了">' +
             '</div>' +
             '<div class="popup__text">' +
-            '<h1>文本文本</h1>' +
-            '<p>文本文本文本文本文本文本' +
-            '文本文本文本文本文本文本' +
-            '文本文本文本文本' +
-            '文本文本文本文本' +
-            '<br>' +
-            '文本文本' +
-            '文本文本' +
-            '文本文本文本文本' +
-            '文本文本文本文本文本文本' +
-            '文本文本文本文本' +
-            '</p>' +
+            '<h1>{{ titleText }}</h1>' +
+            '<p>{{ noticeText }}</p>' +
             '</div>' +
-            '<p id="text">测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本</p>' +
-            '<a id="btn"></a>' +
+            '<p id="text">{{ blText }}</p>' +
+            '<a @click="closeModal()"></a>' +
             '</div>' +
             '</div>';
         document.body.append(div);
-        var btn = document.getElementById('btn');
-        var container = document.getElementById('colse');
-        btn.onclick = function () {
-            container.style.display = "none"
-        }
+        new Vue({
+            el: "#app",
+            data: {
+                isShow: true,
+                imgUrl: "https://pan.ylmty.cc/d/local%F0%9F%94%92/img/300x600.jpg",
+                titleText: "标题",
+                noticeText: "这里是填写公告的地方，可以填写你想要的东西",
+                blText: "这里是左下角的文本"
+            },
+            methods: {
+                closeModal() {
+                    app = this.$refs.app;
+                    app.parentNode.removeChild(app);
+                }
+            },
+        })
     }
 
 }
