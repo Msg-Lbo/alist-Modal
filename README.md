@@ -7,7 +7,7 @@
 
 `<link rel="stylesheet" href="https://msg-lbo.github.io/alist-beautify/Modal/modal.css">`
 #### gitee托管(国内推荐)：
-`<script src="https://msglbo.gitee.io/alist-modal/Modal/modal.css"></script>`
+`<script src="https://msglbo.gitee.io/alist-modal/Modal/modal.js"></script>`
 
 `<link rel="stylesheet" href="https://msglbo.gitee.io/alist-modal/Modal/modal.css">`
 ### 如果你需要修改，请下载以下两个文件
