@@ -43,7 +43,7 @@ window.onload = function () {
         // console.log("PC端："+w)
         var div = document.createElement("div");
         div.setAttribute("id", "shit");
-        body.innerHTML =
+        div.innerHTML =
             '<div ref="app" class="container" v-show="isShow" id="app">' +
             '<div class="popup-inner">' +
             '<div class="popup__photo">' +
