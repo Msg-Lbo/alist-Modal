@@ -5,11 +5,11 @@
 
 `<link rel="stylesheet" href="https://msg-lbo.github.io/alist-beautify/Modal/modal.css">`
 #### gitee托管(国内推荐)：
-
+##### 暂无
 ### 如果你需要修改，请下载以下两个文件
 #### github托管：
 [css文件](https://msg-lbo.github.io/alist-Modal/Modal/modal.css)
- | 
+<span>|</span>
 [js文件](https://msg-lbo.github.io/alist-Modal/Modal/modal.js)
 #### gitee托管(国内推荐)：
 ##### 暂无
