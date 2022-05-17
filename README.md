@@ -1,20 +1,19 @@
 # alist-Modal
 ## 这两个文件都放在head的最上面或者最下面
-<p>github托管：</p>
+#### github托管：
 `<script src="https://msg-lbo.github.io/alist-beautify/Modal/modal.js"></script>`
 
 `<link rel="stylesheet" href="https://msg-lbo.github.io/alist-beautify/Modal/modal.css">`
-<p>gitee托管(国内推荐)：</p>
-
+#### gitee托管(国内推荐)：
 
 ### 如果你需要修改，请下载以下两个文件
-<p>github托管：</p>
+#### github托管：
 [css文件](https://msg-lbo.github.io/alist-Modal/Modal/modal.css)
-
+|
 [js文件](https://msg-lbo.github.io/alist-Modal/Modal/modal.js)
-<p>gitee托管(国内推荐)：</p>
+#### gitee托管(国内推荐)：
 [css文件]()
-
+|
 [js文件]()
 ### 如果你想知道具体样式，你可以[预览](https://pan.ylmty.cc)这里
 ### 如使用托管在github，所以拉取可能有些慢
