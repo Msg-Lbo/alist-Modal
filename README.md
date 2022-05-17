@@ -9,12 +9,10 @@
 ### 如果你需要修改，请下载以下两个文件
 #### github托管：
 [css文件](https://msg-lbo.github.io/alist-Modal/Modal/modal.css)
-|
+ | 
 [js文件](https://msg-lbo.github.io/alist-Modal/Modal/modal.js)
 #### gitee托管(国内推荐)：
-[css文件]()
-|
-[js文件]()
+##### 暂无
 ### 如果你想知道具体样式，你可以[预览](https://pan.ylmty.cc)这里
 ### 如使用托管在github，所以拉取可能有些慢
 ### 电脑端的图片因为和alist有冲突，会导致溢出的部分不隐藏，而是直接挤在一起
