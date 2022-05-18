@@ -11,8 +11,6 @@ body {
 
 .container {
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.3);
@@ -33,7 +31,6 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    /* border-radius: 15px !important; */
     background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(5px);
@@ -54,7 +51,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    width: 75%;
+    width: 72%;
     height: 100%;
     overflow: hidden !important;
 }
@@ -65,10 +62,7 @@ body {
 }
 
 .popup__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 500px;
+    max-width: 500px;
     height: auto;
     margin-left: 2rem;
     margin-top: -220px;
@@ -114,10 +108,12 @@ body {
     transition: all 0.3s;
 }
 
-.popup-inner #text {
-    position: relative;
-    display: block;
-    top: 35%;
-    left: -29%;
-    width: 400px;
+.container #text {
+    position: fixed;
+    top: 71.5%;
+    left: 37.5%;
+    width: 200px;
+    cursor: pointer;
+    color: #686868;
+    text-decoration: none;
 }
