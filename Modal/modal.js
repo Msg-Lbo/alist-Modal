@@ -64,7 +64,7 @@ window.onload = function () {
                 isShow: true,
                 imgUrl: "https://pan.ylmty.cc/d/local%F0%9F%94%92/img/300x600.jpg",
                 titleText: "-网盘须知-",
-                noticeText: "网盘内东西可以随意下载，部分文件夹开放上传权限，请勿上传违法的东西"+<br/>+"聊天室如无法正常打开，请尝试挂梯子，(垃圾JSD)",
+                noticeText: "网盘内东西可以随意下载，部分文件夹开放上传权限，请勿上传违法的东西，聊天室如无法正常打开，请尝试挂梯子，(垃圾JSD)",
                 blText: "MoadlStyle by：ylmty"
             },
             methods: {
