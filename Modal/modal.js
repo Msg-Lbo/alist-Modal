@@ -4,7 +4,7 @@
  * Date:2022/05/15
  */
 
-window.onload = function () {
+ window.onload = function () {
     const url = window.location.href;
     console.log("你的url:" + url)
     var UA = navigator.userAgent.match(/Windows|Windows NT 10.0|X11|Macintosh|iPhone|iPad|Linux|Android/i);
@@ -19,8 +19,8 @@ window.onload = function () {
         // 移动端
         judgeUA = 0
     }
-    // if (judgeUA == 0 && w <= 450) {
-    if (judgeUA == 0 && url == "https://pan.ylmty.cc/" && w <= 450) {
+    if (judgeUA == 0 && w <= 450) {
+    // if (judgeUA == 0 && url == "https://pan.ylmty.cc/" && w <= 450) {
         // url填自己的网站域名加http(s),请复制控制台输出的那一串填入这里，注意结束的/有就一起复制，没有就不加
         // console.log("移动端："+w)
         var div = document.createElement("div");
@@ -37,8 +37,8 @@ window.onload = function () {
             "</div>";
         document.body.append(div);
     }
-    // if (judgeUA == 1 && w >= 450) {
-    if (judgeUA == 1 && url == "https://pan.ylmty.cc/" && w >= 450) {
+    if (judgeUA == 1 && w >= 450) {
+    // if (judgeUA == 1 && url == "https://pan.ylmty.cc/" && w >= 450) {
         // url填自己的网站域名加http(s)
         // console.log("PC端："+w)
         var div = document.createElement("div");
@@ -51,11 +51,12 @@ window.onload = function () {
             '</div>' +
             '<div class="popup__text">' +
             '<h1>{{ titleText }}</h1>' +
+            // '<img src="{{ headImg }}">'+
             '<p>{{ noticeText }}</p>' +
             '</div>' +
-            '<p id="text">{{ blText }}</p>' +
             '<a @click="closeModal()"></a>' +
             '</div>' +
+            '<a href="https://msg-lbo.github.io/alist-Modal/" id="text">{{ blText }}</a>' +
             '</div>';
         document.body.append(div);
         new Vue({
@@ -63,6 +64,7 @@ window.onload = function () {
             data: {
                 isShow: true,
                 imgUrl: "https://pan.ylmty.cc/d/local%F0%9F%94%92/img/300x600.jpg",
+                headImg: "./headImg.jpg",
                 titleText: "-网盘须知-",
                 noticeText: "网盘内东西可以随意下载，部分文件夹开放上传权限，请勿上传违法的东西，聊天室如无法正常打开，请尝试挂梯子，(垃圾JSD)",
                 blText: "MoadlStyle by：ylmty"
@@ -77,4 +79,3 @@ window.onload = function () {
     }
 
 }
-
