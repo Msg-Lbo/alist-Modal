@@ -63,9 +63,9 @@ window.onload = function () {
             data: {
                 isShow: true,
                 imgUrl: "https://pan.ylmty.cc/d/local%F0%9F%94%92/img/300x600.jpg",
-                titleText: "标题",
-                noticeText: "这里是填写公告的地方，可以填写你想要的东西",
-                blText: "这里是左下角的文本"
+                titleText: "-网盘须知-",
+                noticeText: "网盘内东西可以随意下载，部分文件夹开放上传权限，请勿上传违法的东西"+<br/>+"聊天室如无法正常打开，请尝试挂梯子，(垃圾JSD)",
+                blText: "MoadlStyle by：ylmty"
             },
             methods: {
                 closeModal() {
